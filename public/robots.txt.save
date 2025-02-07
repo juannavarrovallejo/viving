@@ -1,0 +1,11 @@
+Route::get('/robots.txt', function () {
+    return response("User-agent: *\nDisallow:", 200)
+        ->header('Content-Type', 'text/plain');
+});
+
+Route::get('/robots.txt', function () {
+    return response("User-agent: *\nDisallow:", 200)
+        ->header('Content-Type', 'text/plain');
+});
+User-agent: *
+Disallow:
