@@ -21,9 +21,9 @@
         }
 
         .nav-link {
-            font-size: 1.08rem;
-            color: black;
-            font-weight: normal;
+            font-size: 1em;
+            color: #1a3151;
+            font-weight: 300;
 
             &:hover {
                 color: rgba(0, 0, 0, 0.7);
@@ -40,3 +40,4 @@
         }
     }
 }
+
