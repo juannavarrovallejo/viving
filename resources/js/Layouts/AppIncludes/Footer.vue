@@ -14,7 +14,7 @@
               :src="$page.props.settings.dark_logo"
               alt="logo"
             />
-            <!-- <img  src="@/images/icons/footerlogo.png" width="200" alt="logo"> -->
+            <!-- <img  src="@/images/icons/footerlogo.png" width="150" alt="logo"> -->
             <span v-else class="mt-4">
               {{
                 $page.props &&
