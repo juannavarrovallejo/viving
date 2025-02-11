@@ -550,20 +550,23 @@ div.mobile-img {
         font-weight: bold !important;
         color: $primary!important;
         margin-bottom: 1rem;
+        line-height: 3rem;
     }
     h3 {
         font-weight: normal !important;
         font-size: 1.875rem;
         color: $primary!important;
         margin-bottom: 1.625rem;
+        line-height: 1.8rem;
     }
 
     p {
         color: $primary!important;
         font-size: 1.125rem;
-        line-height: 1.75rem;
+        line-height: 1.15rem;
         font-weight: 200 !important;
         text-align: start;
+        
     }
 }
 
