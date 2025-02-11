@@ -27,7 +27,7 @@
               <img
                 src="@/images/icons/Gps_fixed.png"
                 class="ms-2"
-                style="width: 2.5rem"
+                style="width: 1.5rem"
                 alt="locationicon"
               />
             </button>
