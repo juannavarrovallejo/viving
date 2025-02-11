@@ -315,7 +315,7 @@
         <Link class="navbar-brand" :href="route('home')">
           <img
             v-if="$page.props && $page.props.settings && $page.props.settings.logo"
-            style="width: 200px"
+            style="width: 150px"
             :src="$page.props.settings.logo"
             alt="logo"
           />
