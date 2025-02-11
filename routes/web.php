@@ -175,9 +175,9 @@ Route::prefix('patients')->name('patients.')->group(function () {
 });
 Route::get('book_service/{service}', [BookedServicesController::class, 'showBookServicePage'])->name('book_service_display')->middleware(['auth', 'patient']);
 
-Route::prefix('doctor')->name('doctor.')->group(function () {
-    Route::get('profile', [DoctorProfileController::class, 'myProfile'])->name('my_profile');
-    Route::get('profile/{user_name}', [DoctorProfileController::class, 'profile'])->name('profile');
+Route::prefix('psicologo')->name('doctor.')->group(function () {
+    Route::get('perfil', [DoctorProfileController::class, 'myProfile'])->name('my_profile');
+    Route::get('perfil/{user_name}', [DoctorProfileController::class, 'profile'])->name('profile');
     Route::get('reviews/{user_name}', [DoctorProfileController::class, 'reviews'])->name('reviews');
 
     Route::post('save_appointment_schedules', [AppointmentScheduleController::class, 'saveAppointmentSchedule'])->name('save_appointment_schedules');
@@ -263,10 +263,10 @@ Route::post('/subscription/{type}/{slug}', [PricingPlansController::class, 'subs
 
 Route::get('psicologos', [ListingController::class, 'doctorListing'])->name('doctors.listing');
 Route::post('psicologos', [ListingController::class, 'doctorListing'])->name('doctors.listing');
-Route::get('clinics', [ListingController::class, 'clinicListing'])->name('clinics.listing');
-Route::get('events', [ListingController::class, 'eventListing'])->name('events.listing');
+Route::get('clinicas', [ListingController::class, 'clinicListing'])->name('clinics.listing');
+Route::get('eventos', [ListingController::class, 'eventListing'])->name('events.listing');
 Route::get('blogs', [ListingController::class, 'blogListing'])->name('blogs.listing');
-Route::get('courses', [ListingController::class, 'archiveListing'])->name('archives.listing');
+Route::get('cursos', [ListingController::class, 'archiveListing'])->name('archives.listing');
 Route::get('podcasts', [ListingController::class, 'podcastListing'])->name('podcasts.listing');
 Route::get('media', [ListingController::class, 'broadcastListing'])->name('broadcasts.listing');
 Route::get('tags', [ListingController::class, 'tagListing'])->name('tags.listing');
