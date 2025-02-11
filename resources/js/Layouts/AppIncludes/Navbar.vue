@@ -2,7 +2,7 @@
   <section>
     <nav
       class="navbar navbar-expand-lg"
-      style="background-color: #F6F6F9"
+      style="background-color: #ffffff"
       :class="{
         'shadow-sm': !view.topOfPage,
       }"
