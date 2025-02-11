@@ -133,6 +133,7 @@ Route::prefix('doctors')->name('doctors.')->group(function () {
     Route::apiCrudRoutes('doctor_educations', DoctorEducationsController::class);
     Route::apiCrudRoutes('doctor_services', DoctorServicesController::class);
 });
+
 Route::prefix('clinics')->name('clinics.')->group(function () {
     Route::post('update_general_info', [AccountController::class, 'updateClinicGeneralInformation'])->name('update_general_info');
     Route::post('update_settings', [AccountController::class, 'updateClinicSettings'])->name('update_settings');
