@@ -261,8 +261,8 @@ Route::get('/pricing/{type}', [PricingPlansController::class, 'index'])->name('p
 Route::get('/pricing/{type}/{slug}', [PricingPlansController::class, 'show'])->name('pricing.show');
 Route::post('/subscription/{type}/{slug}', [PricingPlansController::class, 'subscription'])->name('pricing.subscription');
 
-Route::get('doctors', [ListingController::class, 'doctorListing'])->name('doctors.listing');
-Route::post('doctors', [ListingController::class, 'doctorListing'])->name('doctors.listing');
+Route::get('psicologo', [ListingController::class, 'doctorListing'])->name('doctors.listing');
+Route::post('psicologos', [ListingController::class, 'doctorListing'])->name('doctors.listing');
 Route::get('clinics', [ListingController::class, 'clinicListing'])->name('clinics.listing');
 Route::get('events', [ListingController::class, 'eventListing'])->name('events.listing');
 Route::get('blogs', [ListingController::class, 'blogListing'])->name('blogs.listing');
