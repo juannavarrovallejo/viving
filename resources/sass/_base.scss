@@ -189,14 +189,14 @@
     .accordion-item {
         background-color: #ebf3f6;
         border: 1px solid rgba(0, 0, 0, 0.12);
-        border-radius: 20px;
+        border-radius: 6px;
     }
     .accordion-header {
-        border-radius: 20px;
+        border-radius: 6px;
         .accordion-button {
             &.collapsed {
                 background-color: #ebf3f6;
-                border-radius: 20px;
+                border-radius: 6px;
                 color: $primary;
                 font-weight: bold;
                 font-size: 1.35rem;
@@ -206,7 +206,7 @@
 
             &:not(.collapsed) {
                 background-color: $primary;
-                border-radius: 20px;
+                border-radius: 6px;
                 color: #f2f2f2;
                 font-weight: bold;
                 font-size: 1.35rem;
@@ -262,7 +262,7 @@
         .form-control,
         .form-select {
             border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 20px;
+            border-radius: 6px;
             height: 55px;
             font-size: 18px;
 
@@ -278,7 +278,7 @@
 .form-inputs {
     .multiselect {
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         min-height: 55px !important;
 
         .multiselect-search {
@@ -309,7 +309,7 @@
         .form-control,
         .form-select {
             border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 20px;
+            border-radius: 6px;
             height: 55px;
             font-size: 18px;
             scrollbar-width: none;
@@ -325,7 +325,7 @@
 .prescription-input {
     .multiselect {
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         min-height: 55px !important;
 
         .multiselect-search {
@@ -356,7 +356,7 @@
         .form-control,
         .form-select {
             border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 20px;
+            border-radius: 6px;
             height: 55px;
             font-size: 18px;
             scrollbar-width: none;
@@ -378,7 +378,7 @@
     }
     .form-group {
         border: 1px solid rgba($color: #000000, $alpha: 0.2);
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         height: 55px;
         margin-bottom: 15px;
     }
@@ -388,7 +388,7 @@
     .form-group {
         .form-control {
             border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 20px;
+            border-radius: 6px;
             height: 150px !important;
             font-size: 18px !important;
 
@@ -475,7 +475,7 @@
 }
 
 .rounded-20 {
-    border-radius: 20px;
+    border-radius: 6px;
 }
 
 .vr {
@@ -692,7 +692,7 @@ input::placeholder {
 }
 .multi {
     border: 1px solid rgba(0, 0, 0, 0.205);
-    border-radius: 20px;
+    border-radius: 6px;
     .multiselect-caret {
         mask-image: url(/resources/js/images/icons/down.svg);
         width: 23px;
@@ -716,7 +716,7 @@ input::placeholder {
 .ehr-listing {
     .multiselect {
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         min-height: 55px !important;
         .multiselect-search {
             box-shadow: none;
@@ -786,7 +786,7 @@ input::placeholder {
 }
 .radius {
     border: 1px solid rgba(0, 0, 0, 0.205) !important;
-    border-radius: 20px;
+    border-radius: 6px;
     color: #999999;
 }
 
@@ -994,7 +994,7 @@ input::placeholder {
         .dp__input_wrap {
             .dp__pointer {
                 border: 1px solid rgba(0, 0, 0, 0.3) !important;
-                border-radius: 20px !important;
+                border-radius: 6px !important;
                 min-height: 55px !important;
             }
         }
@@ -1085,7 +1085,7 @@ input::placeholder {
 
     .dob-pick {
         border: 1px solid rgba(0, 0, 0, 0.3);
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         font-size: 18px;
         padding: 7px;
     }
@@ -1141,4 +1141,33 @@ input::placeholder {
     .border-status {
         border: none;
     }
+}
+
+
+li.nav-item.dropdown.lang-dropdown.list-unstyled.me-md-4 {
+    display: none!important;
+}
+
+
+.btn-secondary {
+    color: #FFFFFF !important;
+	font-size: 18px!important;
+}
+
+
+.animate-svg2 {
+    opacity: 0.95!important;
+
+}
+.svg2.position-absolute.animate-svg2 {
+    right: 110px!important;
+    top: 1px!important;
+}
+
+.svg2>img {
+    width: 350px!important;
+}
+
+.py-5.form-content li.nav-item:nth-of-type(3) {
+    display:none!important;
 }

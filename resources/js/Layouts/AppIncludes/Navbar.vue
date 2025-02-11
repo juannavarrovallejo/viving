@@ -78,7 +78,7 @@
                         <div class="d-flex justify-content-end">
                             <Link
                       :href="route('categories')"
-                      class="text-decoration-none text-primary fs-3 fw-normal"
+                      class="text-decoration-none text-primary fs-4 fw-normal"
                       >{{ __("view all") }}</Link
                     >
                         </div>
@@ -99,7 +99,7 @@
                                 ><img class="icon" :src="category.image" alt=""
                               /></span>
                             </div>
-                            <h4 class="card-title text-black mb-2 fs-3">
+                            <h4 class="card-title text-black mb-2 fs-4">
                               {{ category.name }}
                             </h4>
                           </div>
@@ -129,7 +129,7 @@
                         <div class="d-flex justify-content-end mb-3">
                             <Link
                       :href="route('doctors.listing')"
-                      class="text-decoration-none text-primary fs-3 fw-normal"
+                      class="text-decoration-none text-primary fs-4 fw-normal"
                       >{{ __("view all") }}</Link
                     >
                         </div>
@@ -154,7 +154,7 @@
                               <h3 class="fs-22px text-primary fw-bold">
                                 {{ doctor.name }}
                               </h3>
-                              <h5 class="fs-3 text-black fw-normal">
+                              <h5 class="fs-4 text-black fw-normal">
                                 {{ __("Surgeon, Сardiologist") }}
                               </h5>
                               <div class="d-flex justify-content-start">
@@ -299,20 +299,20 @@
             <Link
               v-if="!$page.props.auth"
               :href="route('login')"
-              class="btn btn-outline-primary btn-padding fs-3 shadow-none rounded-3 fw-normal me-md-4"
+              class="btn btn-outline-primary btn-padding fs-4 shadow-none rounded-3 fw-normal me-md-4"
             >
               <span class="">{{ __("Login/Sign up") }}</span></Link
             >
             <Link
               v-if="!$page.props.auth"
               :href="route('register')"
-              class="btn btn-secondary fs-3 btn-padding shadow-none rounded-3 fw-normal"
+              class="btn btn-secondary fs-4 btn-padding shadow-none rounded-3 fw-normal text-white"
             >
               <span>{{ __("Join as Doctor") }}</span></Link
             >
           </div>
         </div>
-        <Link class="navbar-brand mx-auto d-none d-md-block" :href="route('home')">
+        <Link class="navbar-brand" :href="route('home')">
           <img
             v-if="$page.props && $page.props.settings && $page.props.settings.logo"
             style="width: 200px"
@@ -418,7 +418,7 @@
           <Link
             v-if="!$page.props.auth"
             :href="route('login')"
-            class="btn btn-outline-primary btn-padding fs-3 shadow-none rounded-3 fw-normal me-md-3"
+            class="btn btn-outline-primary btn-padding fs-4 shadow-none rounded-3 fw-normal me-md-3"
           >
             <span class="">{{ __("Login/Sign up") }}</span></Link
           >
@@ -426,7 +426,7 @@
           <Link
             v-if="!$page.props.auth"
             :href="route('register')"
-            class="btn btn-secondary fs-3 btn-padding shadow-none rounded-3 fw-normal"
+            class="btn btn-secondary fs-4 btn-padding shadow-none rounded-3 fw-normal text-white"
           >
             <span>{{ __("Join as Doctor") }}</span></Link
           >

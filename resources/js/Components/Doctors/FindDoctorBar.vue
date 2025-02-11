@@ -20,7 +20,7 @@
             </vue-google-autocomplete>
             <button
               type="button"
-              class="btn btn-info text-primary fs-2 d-flex align-items-center px-3 shadow-none rounded-3"
+              class="btn btn-info text-primary fs-4 d-flex align-items-center px-3 shadow-none rounded-3"
               @click="getCurrentLocation()"
             >
               {{ __("Detect") }}
@@ -48,13 +48,13 @@
             <Button
               type="button"
               @click="getCurrentLocation()"
-              class="btn btn-info text-primary fs-2 d-flex align-items-center px-3 shadow-none rounded-3 ms-md-2"
+              class="btn btn-info text-primary fs-4 d-flex align-items-center px-3 shadow-none rounded-3 ms-md-2"
             >
               {{ __("Detect") }}
               <img
                 src="@/images/icons/Gps_fixed.png"
                 class="ms-2"
-                style="width: 2.5rem"
+                style="width: 1.5rem"
                 alt="locationicon"
               />
             </Button>
@@ -77,10 +77,11 @@
               @click="searchData"
               type="button"
               :disabled="isLoading"
-              class="btn btn-secondary px-md-4 py-2 fs-2 fw-bold rounded-3"
+              class="btn btn-secondary px-md-4 py-2 fs-4 fw-bold rounded-3"
             >
               <SpinnerLoader v-if="isLoading" />
-              {{ getPageContent("general_search_btn_text") ?? __("search") }}
+              {{ __("search") }}
+			 
             </button>
           </div>
         </div>

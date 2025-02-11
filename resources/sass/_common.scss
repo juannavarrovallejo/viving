@@ -177,18 +177,18 @@ body {
 .heading-fs {
     font-size: 2.25rem;
     font-weight: bold !important;
-    color: black;
+    color: $primary;
     margin-bottom: 1.5rem;
 }
 
 .subheading-fs {
     font-size: 1.125rem;
-    color: #696868;
+    color: $primary;
     font-weight: normal !important;
 }
 .card-subheading-fs {
     font-size: 0.875rem;
-    color: #696868;
+    color: $primary;
     font-weight: normal !important;
 }
 
@@ -354,7 +354,7 @@ body {
 }
 
 .rounded-lg {
-    border-radius: 20px;
+    border-radius: 6px;
 }
 
 // .item-overlay {
@@ -441,7 +441,7 @@ body {
 
 .carousel__pagination-button {
     height: 12px;
-    border-radius: 20px;
+    border-radius: 6px;
     width: 12px;
     background: rgb(94, 93, 93);
     margin-right: 10px;
@@ -578,7 +578,7 @@ body {
         bottom: 0;
         padding: 0.75rem 0;
         margin: 0 0 0 1.85rem;
-        color: $black;
+        color: $primary;
         font-weight: 700;
         line-height: 1.6;
         text-align: center;
@@ -774,7 +774,7 @@ body {
 
         .icon-background {
             background-color: white;
-            color: black;
+            color: $primary;
         }
     }
 }

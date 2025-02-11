@@ -7,7 +7,7 @@
 :root {
   --bs-accordion-btn-icon-width: 24px;
   --bs-breadcrumb-divider-color: white;
-  --bs-border-radius-xxl: 20px !important;
+  --bs-border-radius-xxl: 6px !important;
 }
 
 .dp__theme_light {
@@ -45,7 +45,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #294481;
+  --bs-primary: #2EB7AD;
   --bs-secondary: #000000;
   --bs-success: #198754;
   --bs-info: #ebf3f6;
@@ -53,7 +53,7 @@
   --bs-danger: #ff0000;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 55, 132, 166;
+  --bs-primary-rgb: 46, 183, 173;
   --bs-secondary-rgb: 0, 0, 0;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 235, 243, 246;
@@ -61,7 +61,7 @@
   --bs-danger-rgb: 255, 0, 0;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-primary-text-emphasis: #163542;
+  --bs-primary-text-emphasis: #2EB7AD;
   --bs-secondary-text-emphasis: black;
   --bs-success-text-emphasis: #0a3622;
   --bs-info-text-emphasis: #5e6162;
@@ -4357,9 +4357,9 @@ textarea.form-control-lg {
   --bs-card-subtitle-color: ;
   --bs-card-border-width: 0;
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: 20px;
+  --bs-card-border-radius: 6px;
   --bs-card-box-shadow: 0px 4px 25px 2px rgba(0, 0, 0, 0.0509803922);
-  --bs-card-inner-border-radius: 20px;
+  --bs-card-inner-border-radius: 6px;
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
@@ -8382,7 +8382,7 @@ textarea.form-control-lg {
 }
 
 .lh-lg {
-  line-height: 2 !important;
+  line-height: 1.5 !important;
 }
 
 .text-start {
@@ -8443,7 +8443,7 @@ textarea.form-control-lg {
 
 .text-black {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-success {
@@ -12139,14 +12139,14 @@ textarea.form-control-lg {
 .profile-accordian .accordion-item {
   background-color: #ebf3f6;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 20px;
+  border-radius: 6px;
 }
 .profile-accordian .accordion-header {
-  border-radius: 20px;
+  border-radius: 6px;
 }
 .profile-accordian .accordion-header .accordion-button.collapsed {
   background-color: #ebf3f6;
-  border-radius: 20px;
+  border-radius: 6px;
   color: #294481;
   font-weight: bold;
   font-size: 1.35rem;
@@ -12155,7 +12155,7 @@ textarea.form-control-lg {
 }
 .profile-accordian .accordion-header .accordion-button:not(.collapsed) {
   background-color: #294481;
-  border-radius: 20px;
+  border-radius: 6px;
   color: #f2f2f2;
   font-weight: bold;
   font-size: 1.35rem;
@@ -12208,7 +12208,7 @@ textarea.form-control-lg {
 .home-address .form-group .form-control,
 .home-address .form-group .form-select {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 55px;
   font-size: 18px;
   scrollbar-width: none;
@@ -12221,7 +12221,7 @@ textarea.form-control-lg {
 
 .form-inputs .multiselect {
   border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   min-height: 55px !important;
 }
 .form-inputs .multiselect .multiselect-search {
@@ -12250,7 +12250,7 @@ textarea.form-control-lg {
 .form-inputs .form-group .form-control,
 .form-inputs .form-group .form-select {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 55px;
   font-size: 18px;
   scrollbar-width: none;
@@ -12262,7 +12262,7 @@ textarea.form-control-lg {
 
 .prescription-input .multiselect {
   border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   min-height: 55px !important;
 }
 .prescription-input .multiselect .multiselect-search {
@@ -12291,7 +12291,7 @@ textarea.form-control-lg {
 .prescription-input .form-group .form-control,
 .prescription-input .form-group .form-select {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 55px;
   font-size: 18px;
   scrollbar-width: none;
@@ -12309,14 +12309,14 @@ textarea.form-control-lg {
 }
 .social-inputs .form-group {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   height: 55px;
   margin-bottom: 15px;
 }
 
 .decription-content .form-group .form-control {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 150px !important;
   font-size: 18px !important;
   scrollbar-width: none;
@@ -12578,7 +12578,7 @@ input::placeholder {
 
 .multi {
   border: 1px solid rgba(0, 0, 0, 0.205);
-  border-radius: 20px;
+  border-radius: 6px;
 }
 .multi .multiselect-caret {
   -webkit-mask-image: url(/resources/js/images/icons/down.svg);
@@ -12637,7 +12637,7 @@ input::placeholder {
 
 .radius {
   border: 1px solid rgba(0, 0, 0, 0.205) !important;
-  border-radius: 20px;
+  border-radius: 6px;
   color: #999999;
 }
 
@@ -12844,7 +12844,7 @@ input::placeholder {
 
 .experience-modal .form-group .dp__input_wrap .dp__pointer {
   border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   min-height: 55px !important;
 }
 
@@ -12950,12 +12950,12 @@ input::placeholder {
   margin-right: 0;
 }
 .navbar .nav-item .nav-link {
-  font-size: 1.08rem;
-  color: black;
+  font-size: 1rem!important;
+  color: var(--bs-primary-rgb);
   font-weight: normal;
 }
 .navbar .nav-item .nav-link:hover {
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--bs-secondary-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -13473,7 +13473,7 @@ select:-webkit-autofill:focus {
 
 .generate-appointment .multiselect {
   border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   min-height: 50px !important;
 }
 .generate-appointment .multiselect .multiselect-search {
@@ -13502,7 +13502,7 @@ select:-webkit-autofill:focus {
 .generate-appointment .form-group .form-control,
 .generate-appointment .form-group .form-select {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 50px;
   font-size: 18px;
   scrollbar-width: none;
@@ -13573,13 +13573,13 @@ select:-webkit-autofill:focus {
 .modal-content .form-control,
 .modal-content .form-select {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
+  border-radius: 6px;
   height: 55px;
   font-size: 18px;
 }
 .modal-content .multiselect {
   border: 1px solid rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px !important;
+  border-radius: 6px !important;
   min-height: 55px !important;
 }
 .modal-content .multiselect .multiselect-tag {
@@ -13604,7 +13604,7 @@ select:-webkit-autofill:focus {
 
 .file-select {
   border: 2px dashed #b9b9b9;
-  border-radius: 20px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14131,7 +14131,7 @@ body {
 }
 
 .rounded-lg {
-  border-radius: 20px;
+  border-radius: 6px;
 }
 
 @keyframes rotation {
@@ -14168,7 +14168,7 @@ body {
 
 .carousel__pagination-button {
   height: 12px;
-  border-radius: 20px;
+  border-radius: 6px;
   width: 12px;
   background: rgb(94, 93, 93);
   margin-right: 10px;
@@ -15611,7 +15611,7 @@ input {
 }
 .section.login .carousel__pagination-button {
   height: 12px;
-  border-radius: 20px;
+  border-radius: 6px;
   width: 12px;
   background: white;
   margin-right: 10px;
@@ -15807,3 +15807,5 @@ input[type=number]::placeholder {
 .add-wallet .carousel__next {
   display: none;
 }/*# sourceMappingURL=app.css.map */
+
+

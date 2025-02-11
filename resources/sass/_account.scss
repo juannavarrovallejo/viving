@@ -34,13 +34,13 @@
     .form-control,
     .form-select {
         border: 1px solid rgba(0, 0, 0, 0.3);
-        border-radius: 20px;
+        border-radius: 6px;
         height: 55px;
         font-size: 18px;
     }
     .multiselect {
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
-        border-radius: 20px !important;
+        border-radius: 6px !important;
         min-height: 55px !important;
 
         .multiselect-tag {
@@ -73,7 +73,7 @@
 
 .file-select {
     border: 2px dashed #b9b9b9;
-    border-radius: 20px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
