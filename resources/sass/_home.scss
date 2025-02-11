@@ -469,13 +469,13 @@ div.mobile-img {
     .first-heading {
         font-size: 3rem;
         font-weight: bold !important;
-        color: black;
+        color: $primary!important;
         margin-bottom: 1rem;
     }
     .second-heading {
         font-weight: normal !important;
         font-size: 1.875rem;
-        color: black;
+        color: $primary!important;
         margin-bottom: 1.625rem;
     }
     .paragraph-heading {
@@ -548,18 +548,18 @@ div.mobile-img {
     h2 {
         font-size: 3rem;
         font-weight: bold !important;
-        color: black;
+        color: $primary!important;
         margin-bottom: 1rem;
     }
     h3 {
         font-weight: normal !important;
         font-size: 1.875rem;
-        color: black;
+        color: $primary!important;
         margin-bottom: 1.625rem;
     }
 
     p {
-        color: #696868;
+        color: $primary!important;
         font-size: 1.125rem;
         line-height: 1.75rem;
         font-weight: 200 !important;
@@ -625,8 +625,9 @@ input {
     .heading-slide h2 {
         font-size: 2rem;
         font-weight: bold !important;
-        color: $primary;
+        color: $primary!important;
         margin-bottom: 0.875rem;
+        line-height: 3rem;
     }
 
     .heading-slide p {
