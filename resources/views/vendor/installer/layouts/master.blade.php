@@ -139,8 +139,8 @@
             </div>
         </div>
         <div class="text-center" style="font-size: 16px">
-            <strong>Copyright &copy; {{ date('Y') }} <a href="#">CareConnect</a>.</strong>
-            All rights reserved.
+            <strong>Copyright &copy; {{ date('Y') }} <a href="https://viving.es">Viving</a>.</strong>
+            Marca registrada. Todos los derechos reservados.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 1.0
             </div>
