@@ -173,6 +173,7 @@ Route::prefix('patients')->name('patients.')->group(function () {
     Route::get('/record_health', [WebAPIController::class, 'getAllPatientHealth'])->name('record.health');
     // Route::post('/record_prescription', [RecordPrescriptionController::class, 'store'])->name('prescription.store');
 });
+
 Route::get('book_service/{service}', [BookedServicesController::class, 'showBookServicePage'])->name('book_service_display')->middleware(['auth', 'patient']);
 
 Route::prefix('psicologo')->name('doctor.')->group(function () {
