@@ -43,10 +43,10 @@
     $general_settings = generalSettings();
 @endphp
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary" style="background: #0b1061!important">
+<aside class="main-sidebar sidebar-dark-primary" style="background: #165b56!important">
     <!-- Brand Logo -->
     <a href="{{ route('super_admin.dashboard') }}" class="d-flex flex-column align-items-center pt-3"
-        style="background:#0b1061">
+        style="background:#165b56">
         <img src="{{ $dark_site_logo && $dark_site_logo->value ? asset($dark_site_logo->value) : asset('images/logo.png') }}"
             alt="zLogo" class="brand-image">
         <!-- <span class="brand-text font-weight-light h5 mb-0 text-capitalize">
