@@ -18,7 +18,7 @@
     .border-leftside {
         width: 6px;
         height: 30px;
-        background-color: #7a65ff;
+        background-color: #2ebab0bf;
         border-radius: 8px;
         position: absolute;
         top: 7px;
